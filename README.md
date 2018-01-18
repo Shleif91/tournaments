@@ -15,3 +15,9 @@ Create admin
 ------------
 1. `docker-compose exec web bash`
 2. `python manage.py createsuperuser`
+
+Get tables from database
+------------------------
+1. `docker-compose exec db bash`
+2. `psql -U postgres -d postgres`
+3. `\dt`
